@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontawesome icons-->
+    <script src="https://kit.fontawesome.com/cf726b2618.js" crossorigin="anonymous"></script>
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- cdjns - fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserray:wght@100;500;600$family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Custom css-->
+    <link rel="stylesheet" href="easy.css">
+    <title><b>Easy Laundry</b></title>
+        <style>
+            header{
+                background: url(images/Services.jpg);
+                background-size: cover;
+                background-position: center;
+                min-height: 1000px;
+            }
+            @media screen and (max-width: 670px) {
+                header{
+                    min-height: 500px;
+                }
+            }
+        </style>
+</head>
+<body>
+    <header>    
+        <!--NAVBAR-->
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">
+                    <img src="images/logo1.png" class="logo1">
+                </a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#location">
+                            <i class="fa-solid fa-location-dot fa-sm"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook fa-sm"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!--sidenav-->
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#location">Location</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100092338360773">
+                            <i class="fa-brands fa-facebook fa-sm"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <br><br><br>
+            <div class="row center" id="home">
+                <a href="" class="brand-logo">
+                    <img src="images/logo.jpg" alt="" class="circle responsive-img">
+                </a>
+            <h3 class="center white-text" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Wash | Dry | Fold</b></h3>
+            <h5 class="center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-shadow: 1px 1px 2px white;">"Laundry at its Finest"</h5>
+            <a href="#book" class="btn-large white waves-effect waves-light modal-trigger black-text text-black"><b>Book Now</b></a>
+            </div>
+            <br><br>
+        </div>
+    </header>
+    <!--Why Us-->
+    <div class="card-panel">
+        <div class="container">
+            <h3 class="center"> WHY BOOK YOUR LAUNDRY WITH US?</h3>
+            <div class="row center">
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <div class="card-image">
+                            <img src="images/stime.jpg" alt="" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel">
+                        <div class="card-image">
+                            <img src="images/convenience.jpg" alt="" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel">
+                        <div class="card-image">
+                            <img src="images/best.jpg" alt="" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services-->
+    <div class="section">
+        <!--slider-->
+        <div class="slider" id="services">
+            <ul class="slides">
+                <li>
+                    <img src="images/laundry1.jpg">
+                    <div class="caption center-align">
+                    <h1 class="white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;">AVAIL OUR SERVICES
+                    </h1>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/wash.webp"> 
+                    <div class="caption left-align">
+                    <h3 class="white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;">W A S H</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/dry.jpeg"> 
+                    <div class="caption right-align">
+                    <h3 class="white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;">D R Y</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/fold.jpeg"> 
+                    <div class="caption center-align">
+                    <h3 class="white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;">F O L D</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/laundry1.jpg"> 
+                    <div class="caption center-align">
+                    <h3 class="white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;">
+                        <p class="center white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;"> for only</p>
+                        <h1 class="white-text" style="font-family: fantasy; text-shadow: 1px 1px 2px black;">PHP 170/KG</h1>
+                    </h3>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <!--About Us-->
+    <div class="card-panel" id="about">
+        <div class="section center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 l2">
+                        <img src="images/clock.jpg" class="responsive-img hours">
+                    </div>
+                    <div class="col s6 l10">
+                        <h2>Store Hours</h2>
+                        <p class="flow-text">7am-7pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-panel">
+        <div class="section center">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 l2">
+                        <img src="images/calendar.jpg" alt="" class="responsive-img date">
+                    </div>
+                    <div class="col s6 l10">
+                        <h2>Store Opening</h2>
+                        <p class="flow-text">Open Daily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>       
+    
+    <div class="card-panel blue">
+        <div class="container center">
+            <h2 class="white-text" style="font-family: fantasy;">Ready to do your <b>LAUNDRY?</b></h2>
+                <a href="#book" class="btn-large pink lighten-1 waves-effect waves-light modal-trigger">Book Now</a>
+
+                <!--Modal-->
+                <div class="modal" id="book" >
+                    <div class="modal-content">
+                        <h4>Input Details</h4>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">person</i>
+                                        <input type="text" class="autocomplete">
+                                        <label for="autocomplete-input">Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">mail</i>
+                                        <input type="email" class="autocomplete">
+                                        <label for="autocomplete-input">Mail</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field">
+                                        <input type="text" class="datepicker">
+                                        <label for="date">Choose a date you want to book</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field">
+                                        <p>Services required...</p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox">
+                                                    <span>Wash</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox">
+                                                    <span>Dry</span>
+                                                </label>
+                                            </p>
+                                            <p>
+                                                <label>
+                                                    <input type="checkbox">
+                                                    <span>Fold</span>
+                                                </label>
+                                            </p>
+                                            <div class="modal-footer">
+                                                <a href="#next" class="btn-large blue waves-effect waves-light modal-trigger">SUBMIT</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                <div class="modal" id="next">
+                    <div class="modal-content">
+                        <h6>You have</h6>
+                        <h2><b>SUCCESSFULLY BOOKED</b></h2>
+                        <h6>your transaction using this website.</h6>
+                        <div class="divider"></div>
+                        <h6>Please</h6>
+                        <h4><b>Proceed to your</b></h4>
+                        <h4><b>EMAIL</b></h4>
+                        <h5>for your confirmed transaction and further instructions</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Location-->
+    <div class="card-panel">
+        <div class="row center">
+            <div class="col s12">
+                <h5 class="center" id="location"><b>Location</b></h5>
+            </div>
+            <div class="col s12">
+                <p>Our shop is Located at St. Joseph 7 Ph5 Gulod, Cabuyao City, Laguna</p>
+            </div>
+            <br><br><br>
+            <div class="col s12">
+                <div class="layout">
+                    <div class="frame responsive-img">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d966.7026840287261!2d121.1549473695498!3d14.264257299136426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d905284bdc5d%3A0x9634139d768a8579!2sSt.%20Joseph%20Village%207%20Phase%205A!5e0!3m2!1sen!2sph!4v1691150300477!5m2!1sen!2sph" class="loc" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+        <footer class="page-footer blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6">
+                        <h5>About Me</h5>
+                        <p class="white-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Dolor quasi ipsam, sit explicabo perspiciatis earum error accusamus tempora, 
+                            perferendis autem fugiat natus molestiae consectetur ex similique quis laboriosam, molestias quibusdam!
+                        </p>
+                        <p class="white-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Accusamus laboriosam excepturi labore voluptates asperiores facere dolor cumque voluptatem saepe iste maiores, 
+                            ad, maxime laudantium est consequatur tempora. Voluptates, provident culpa?
+                        </p>
+
+                    </div>
+                    <div class="col s12 l4 offset-l2">
+                        <h5 id="contact"><b>Contact Us</b></h5>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100092338360773" class="white-text">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="white-text">Mail</a>
+                                </li>
+                                <li>
+                                    <a href="" class="white-text">Contact No</a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>      
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+       <!--Initialization-->
+       <script>
+        $(document).ready(function(){
+            //sidenav init
+           $('.sidenav').sidenav();
+           //parallax init
+           $('.parallax').parallax();
+           //slider init
+           $('.slider').slider({
+            indicators: false,
+            height: 500,
+            interval: 1000,
+           });
+           //form init
+           $('input.autocomplete').autocomplete();
+           //modal init
+           $('.modal').modal();
+           //date init
+           $('.datepicker').datepicker({
+            autoClose: true,
+           });
+        });
+        </script>   
+</body>
+</html>

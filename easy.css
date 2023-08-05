@@ -1,0 +1,34 @@
+h1,h2,h3 {
+    color: #ec407a;
+    font-weight: lighter;
+}
+
+p {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+blockquote {
+    color: #000000;
+}
+
+.hours {
+    max-width: 15;
+    max-height: 15;
+}
+
+.date {
+    max-width: 15;
+    max-height: 15;
+}
+
+header .logo1 {
+    position: relative;
+    max-width: 120px;
+    padding: 7px 5px 5px 5px;
+}
+
+header .text {
+    position: relative;
+    padding: 0px 0px 1000px 0px
+}
